@@ -5,8 +5,11 @@
 
 import scrapy
 
-
+class TableScrapSpider:
+    name = scrapy.Field()
+    Domain = scrapy.Field()
+    Priority = scrapy.Field()
+    # Priority = scrapy.Field()
 class WebscrapItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
+    # define the fields for your item here lik
     pass
